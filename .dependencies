@@ -1,0 +1,4 @@
+{
+    "@react-native-firebase/app": "17.3.0",
+    "@react-native-firebase/messaging": "17.3.0"
+}
