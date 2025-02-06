@@ -48,6 +48,10 @@ def common_pods
   # Required MendixNative dependency
   pod 'SSZipArchive'
 
+  # Required for Push notifications
+  pod 'Firebase', :modular_headers => true
+  pod 'FirebaseCore', :modular_headers => true
+  pod 'GoogleUtilities', :modular_headers => true
   # REQUIRED PODS END
 end
 
